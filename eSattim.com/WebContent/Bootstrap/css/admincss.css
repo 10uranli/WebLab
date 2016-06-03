@@ -1,0 +1,122 @@
+html, body{
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #35657B;
+	color: #FFFFFF;
+	height: 100%;
+}
+
+.box{
+	border: 1px red dotted;
+}
+#side-menu{
+	background-color: #8F98A1;
+	padding: 0px;
+}
+
+#side-menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#side-menu a{
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+
+}
+
+#side-menu .glyphicon {
+	margin-right: 7px;
+}
+
+#side-menu a:hover{
+	background-color: #0004FF;
+	color: #00FF32;
+}
+
+#side-menu h1{
+	color: #FFFFFF;
+	text-align: center;
+	margin: 15px 0px;
+}
+.display-table{
+	display: table;
+	padding: 0px;
+	height: 100%;
+}
+
+.display-table-row{
+	display: table-row;
+	height: 100%;
+}
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+
+.valign-top{
+	vertical-align: top;
+}
+#nav-header{
+	background-color: #BFD1D5;
+	border-bottom: 1px solid #e7eaec;
+}
+
+#nav-header ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: #FFFFFF;
+}
+
+#nav-header ul li{
+	float: left;
+	margin-left: 15px;
+	padding: 17px 0px; 
+}
+
+#nav-header ul .glpyhicon{
+	color: #676a6c; 
+}
+
+#nav-header #welcome{
+	margin-right: 20px;
+}
+
+#nav-header ul .label{
+	position: absolute;
+	margin-top: -15px;
+	margin-left: -5px;
+}
+.label-message{
+	background-color: #1ab394;
+}
+
+#nav-header ul a{
+	text-decoration: none;
+}
+
+#nav-header .logout:hover{
+	color: #676a6c;
+}
+
+#nav-header .fixed-width{
+	width: 35px;
+}
+
+#admin-footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #BFD1D5;
+	padding: 10px;
+	font-size: 18px;
+	color: #FF5100;
+	
+}
+
